@@ -1,0 +1,26 @@
+{
+    "name": "express_server",
+    "version": "1.0.0",
+    "description": "graphql",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gildata/GAIO.git"
+    },
+    "keywords": [
+        "GAIO",
+        "React",
+        "GraphQL",
+        "Apollo",
+        "Express"
+    ],
+    "author": "xgqfrms",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/gildata/GAIO/issues"
+    },
+    "homepage": "https://github.com/gildata/GAIO#readme"
+}
