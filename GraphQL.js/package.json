@@ -1,0 +1,34 @@
+{
+    "name": "graphql-js",
+    "version": "1.0.0",
+    "description": "graphql.js",
+    "main": "server.js",
+    "scripts": {
+        "start": "node express-server.js",
+        "demo": "node server.js",
+        "rmrf": "rimraf build/js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gildata/GAIO.git"
+    },
+    "keywords": [
+        "graphql"
+    ],
+    "author": "xgqfrms",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/gildata/GAIO/issues"
+    },
+    "homepage": "https://github.com/gildata/GAIO#readme",
+    "dependencies": {
+        "express": "^4.16.3",
+        "express-graphql": "^0.6.12",
+        "graphql": "^0.13.1",
+        "whatwg-fetch": "^2.0.3"
+    },
+    "devDependencies": {
+        "rimraf": "^2.6.2"
+    }
+}
