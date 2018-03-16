@@ -6,9 +6,10 @@ import { resolvers } from './resolvers';
 const typeDefs = `
     type Channel {
         id: ID!
-        # "!" denotes a required field
+        #注释 ! 表示必填字段
         name: String
         messages: [Message]!
+        #注释 一个 Message 类型的数组
     }
     type Message {
         id: ID!
